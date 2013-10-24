@@ -29,6 +29,7 @@ easy_install install celery
 除此之外还需要安装broker的系统，我使用的是redis，除了安装redis以外还需要安装celery-with-redis
 pip install celery-with-redis
 使用其他类型的broker请参见官方文档：
+
 __ http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#using-a-database
 
 Celery的初步使用
@@ -133,6 +134,7 @@ celery的分发控制使用比较简单，但是高级功能比较复杂，我�
     >>> result.get()
 
 更高级的使用方法请大家研究官网的文档：
+
 __ http://docs.celeryproject.org/en/latest/userguide/routing.html
 
 
